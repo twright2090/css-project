@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    color: #f9faf8;
+    font-size: 24px;
+    background-color: #1F2937;
+    width: 100%;
+    padding-left: 60px;
+}
+
+.links {
+    display: flex;
+    align-self: flex-end;
+    margin-left: auto;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
